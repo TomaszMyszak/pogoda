@@ -43,7 +43,7 @@ namespace pogoda
             /// <summary>
             /// ta metoda pobiera dane pogodowe z serwisu pogodowego z pliku JSON i przypisuje je do odpowiednich zmiennych
             /// </summary>
-            /// <param name="url">https://api.openweathermap.org/data/2.5/weather?q=Katowice&appid=6c6141b28f4f15cd91e691b478cf268a</param>
+            /// <param name="url">https://api.openweathermap.org/data/2.5/weather?q=Katowice&appid=***********************************</param>
             using (WebClient web = new WebClient())
             {
                 string APIkey = "*********************************";                                                                   /// tu wstawiamy klucz API z open Weather
