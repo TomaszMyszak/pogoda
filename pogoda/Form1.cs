@@ -46,7 +46,7 @@ namespace pogoda
             /// <param name="url">https://api.openweathermap.org/data/2.5/weather?q=Katowice&appid=6c6141b28f4f15cd91e691b478cf268a</param>
             using (WebClient web = new WebClient())
             {
-                string APIkey = "6c6141b28f4f15cd91e691b478cf268a";
+                string APIkey = "*********************************";                                                                   /// tu wstawiamy klucz API z open Weather
                 string url = String.Format("https://api.openweathermap.org/data/2.5/weather?q=" + TBCity.Text + "&appid=" + APIkey); //wstawiamy nazwę miasta(0) i klucz API (1)
 
                 string json = web.DownloadString(url);                                                                                  /// <summary>
